@@ -11,6 +11,7 @@
     font-family: monospace;
     width: 4.5em;
     float: left;
+    color: #95AFBA;
 }
 
 .hexviewer div.row {
@@ -39,12 +40,41 @@
 
 .hexviewer ul.setAscii.active,
 .hexviewer ul.setHex.active {
-    color: green;
+    color: #95AFBA;
 }
 
 .hexviewer ul.setAscii li.active,
 .hexviewer ul.setHex li.active {
     font-weight:bold;
     color: white;
-    background-color: green;
+    background-color: #95AFBA;
 } 
+
+
+    .pixelset {
+        /* background: #333; */
+        height: 100vh;
+        /* display: flex; */
+        display: inline-table;
+        justify-content: center;
+        align-items: center;
+    }
+      
+      .codec2bpp {
+        /* width: 10px;
+        height: 80px; */
+      }
+      
+      .pixel {
+        width: 2px;
+        height: 2px;
+        float: left;
+        box-shadow: 0px 0px 1px #fff;
+      }
+
+      .pixelRow {
+        position: relative;
+        height: 40px;
+        display: inline-block;
+        width: 2px;
+    }
